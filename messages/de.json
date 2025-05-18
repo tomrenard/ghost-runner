@@ -1,0 +1,49 @@
+{
+  "common": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "learn": "Lernen",
+    "academy": "Akademie",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "forgotPassword": "Passwort vergessen?",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "submit": "Absenden",
+    "loading": "Wird geladen..."
+  },
+  "auth": {
+    "signInTitle": "Anmelden",
+    "signUpTitle": "Registrieren",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "emailPlaceholder": "du@beispiel.com",
+    "passwordPlaceholder": "Dein Passwort"
+  },
+  "footer": {
+    "description": "Erstellen Sie schneller als je zuvor voll funktionsfähige, zugängliche Webanwendungen",
+    "copyright": "© {year} Alle Rechte vorbehalten."
+  },
+  "hero": {
+    "title": "Eine React-Komponenten-Bibliothek",
+    "description": "Erstellen Sie schneller als je zuvor voll funktionsfähige, zugängliche Webanwendungen – Mantine enthält mehr als 120 anpassbare Komponenten und Hooks für jede Situation",
+    "features": {
+      "typescript": {
+        "title": "TypeScript-basiert",
+        "description": "erstellen Sie typsichere Anwendungen, alle Komponenten und Hooks exportieren Typen"
+      },
+      "opensource": {
+        "title": "Kostenlos und Open Source",
+        "description": "alle Pakete haben eine MIT-Lizenz, Sie können Mantine in jedem Projekt verwenden"
+      },
+      "focus": {
+        "title": "Kein störender Fokusring",
+        "description": "der Fokusring erscheint nur, wenn der Benutzer mit der Tastatur navigiert"
+      }
+    },
+    "buttons": {
+      "getStarted": "Loslegen",
+      "sourceCode": "Quellcode"
+    }
+  }
+}

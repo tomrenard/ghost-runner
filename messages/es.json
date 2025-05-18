@@ -1,0 +1,49 @@
+{
+  "common": {
+    "home": "Inicio",
+    "features": "Características",
+    "learn": "Aprender",
+    "academy": "Academia",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Enviar",
+    "loading": "Cargando..."
+  },
+  "auth": {
+    "signInTitle": "Iniciar sesión",
+    "signUpTitle": "Registrarse",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordPlaceholder": "Tu contraseña"
+  },
+  "footer": {
+    "description": "Construye aplicaciones web accesibles y completamente funcionales más rápido que nunca",
+    "copyright": "© {year} Todos los derechos reservados."
+  },
+  "hero": {
+    "title": "Una biblioteca de componentes React",
+    "description": "Construye aplicaciones web accesibles y completamente funcionales más rápido que nunca – Mantine incluye más de 120 componentes y hooks personalizables para cubrirte en cualquier situación",
+    "features": {
+      "typescript": {
+        "title": "Basado en TypeScript",
+        "description": "construye aplicaciones con seguridad de tipos, todos los componentes y hooks exportan tipos"
+      },
+      "opensource": {
+        "title": "Gratuito y de código abierto",
+        "description": "todos los paquetes tienen licencia MIT, puedes usar Mantine en cualquier proyecto"
+      },
+      "focus": {
+        "title": "Sin anillo de enfoque molesto",
+        "description": "el anillo de enfoque solo aparecerá cuando el usuario navegue con el teclado"
+      }
+    },
+    "buttons": {
+      "getStarted": "Comenzar",
+      "sourceCode": "Código fuente"
+    }
+  }
+}

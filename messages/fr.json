@@ -1,0 +1,49 @@
+{
+  "common": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "learn": "Apprendre",
+    "academy": "Académie",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "forgotPassword": "Mot de passe oublié ?",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "submit": "Envoyer",
+    "loading": "Chargement..."
+  },
+  "auth": {
+    "signInTitle": "Se connecter",
+    "signUpTitle": "S'inscrire",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "emailPlaceholder": "vous@exemple.com",
+    "passwordPlaceholder": "Votre mot de passe"
+  },
+  "footer": {
+    "description": "Construisez des applications web accessibles et entièrement fonctionnelles plus rapidement que jamais",
+    "copyright": "© {year} Tous droits réservés."
+  },
+  "hero": {
+    "title": "Une bibliothèque de composants React",
+    "description": "Construisez des applications web accessibles et entièrement fonctionnelles plus rapidement que jamais – Mantine inclut plus de 120 composants et hooks personnalisables pour vous couvrir dans toutes les situations",
+    "features": {
+      "typescript": {
+        "title": "Basé sur TypeScript",
+        "description": "construisez des applications avec sécurité de types, tous les composants et hooks exportent des types"
+      },
+      "opensource": {
+        "title": "Gratuit et open source",
+        "description": "tous les packages ont une licence MIT, vous pouvez utiliser Mantine dans n'importe quel projet"
+      },
+      "focus": {
+        "title": "Pas d'anneau de focus gênant",
+        "description": "l'anneau de focus n'apparaîtra que lorsque l'utilisateur navigue avec le clavier"
+      }
+    },
+    "buttons": {
+      "getStarted": "Commencer",
+      "sourceCode": "Code source"
+    }
+  }
+}

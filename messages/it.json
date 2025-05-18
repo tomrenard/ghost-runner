@@ -1,0 +1,49 @@
+{
+  "common": {
+    "home": "Home",
+    "features": "Funzionalità",
+    "learn": "Impara",
+    "academy": "Accademia",
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "forgotPassword": "Password dimenticata?",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Invia",
+    "loading": "Caricamento..."
+  },
+  "auth": {
+    "signInTitle": "Accedi",
+    "signUpTitle": "Registrati",
+    "noAccount": "Non hai un account?",
+    "hasAccount": "Hai già un account?",
+    "emailPlaceholder": "tuo@esempio.com",
+    "passwordPlaceholder": "La tua password"
+  },
+  "footer": {
+    "description": "Costruisci applicazioni web accessibili e completamente funzionali più velocemente che mai",
+    "copyright": "© {year} Tutti i diritti riservati."
+  },
+  "hero": {
+    "title": "Una libreria di componenti React",
+    "description": "Costruisci applicazioni web accessibili e completamente funzionali più velocemente che mai – Mantine include più di 120 componenti e hook personalizzabili per coprirti in ogni situazione",
+    "features": {
+      "typescript": {
+        "title": "Basato su TypeScript",
+        "description": "costruisci applicazioni con sicurezza dei tipi, tutti i componenti e gli hook esportano i tipi"
+      },
+      "opensource": {
+        "title": "Gratuito e open source",
+        "description": "tutti i pacchetti hanno licenza MIT, puoi usare Mantine in qualsiasi progetto"
+      },
+      "focus": {
+        "title": "Nessun anello di focus fastidioso",
+        "description": "l'anello di focus apparirà solo quando l'utente naviga con la tastiera"
+      }
+    },
+    "buttons": {
+      "getStarted": "Inizia",
+      "sourceCode": "Codice sorgente"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  font-size: 0.875rem;
+}
+
+.message {
+  padding: 0.5rem 1rem;
+  border-left: 2px solid;
+}
+
+.success {
+  color: var(--mantine-color-green-7);
+  border-color: var(--mantine-color-green-7);
+}
+
+.error {
+  color: var(--mantine-color-red-7);
+  border-color: var(--mantine-color-red-7);
+}
+
+.info {
+  color: var(--mantine-color-gray-7);
+  border-color: var(--mantine-color-gray-7);
+}

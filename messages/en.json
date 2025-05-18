@@ -1,0 +1,49 @@
+{
+  "common": {
+    "home": "Home",
+    "features": "Features",
+    "learn": "Learn",
+    "academy": "Academy",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot Password?",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Submit",
+    "loading": "Loading..."
+  },
+  "auth": {
+    "signInTitle": "Sign in",
+    "signUpTitle": "Sign up",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "Your password"
+  },
+  "footer": {
+    "description": "Build fully functional accessible web applications faster than ever",
+    "copyright": "© {year} All rights reserved."
+  },
+  "hero": {
+    "title": "A React components library",
+    "description": "Build fully functional accessible web applications faster than ever – Mantine includes more than 120 customizable components and hooks to cover you in any situation",
+    "features": {
+      "typescript": {
+        "title": "TypeScript based",
+        "description": "build type safe applications, all components and hooks export types"
+      },
+      "opensource": {
+        "title": "Free and open source",
+        "description": "all packages have MIT license, you can use Mantine in any project"
+      },
+      "focus": {
+        "title": "No annoying focus ring",
+        "description": "focus ring will appear only when user navigates with keyboard"
+      }
+    },
+    "buttons": {
+      "getStarted": "Get started",
+      "sourceCode": "Source code"
+    }
+  }
+}
