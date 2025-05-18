@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "supabase",
+    "turbopack"
+  ],
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs"
+}
