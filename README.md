@@ -1,1 +1,1 @@
-# Personal Template w/Next.js with Supabase, Next-Intl, Mantine Vitest and Playwright
+# Personal Template w/Next.js with Supabase, Next-Intl, Radix, Vitest and Playwright
