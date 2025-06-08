@@ -1,5 +1,4 @@
 import { createClient } from "@/utils/supabase/server";
-import { InfoIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 

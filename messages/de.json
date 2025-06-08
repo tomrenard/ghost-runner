@@ -18,7 +18,15 @@
     "noAccount": "Noch kein Konto?",
     "hasAccount": "Bereits ein Konto?",
     "emailPlaceholder": "du@beispiel.com",
-    "passwordPlaceholder": "Dein Passwort"
+    "passwordPlaceholder": "Dein Passwort",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signingIn": "Anmeldung läuft...",
+    "signingUp": "Registrierung läuft...",
+    "forgotPassword": "Passwort vergessen?",
+    "submit": "Senden",
+    "checkEmail": "Überprüfen Sie Ihre E-Mails",
+    "checkEmailMessage": "Wir haben einen magischen Link an Ihre E-Mail gesendet. Klicken Sie darauf, um sich anzumelden."
   },
   "footer": {
     "description": "Erstellen Sie schneller als je zuvor voll funktionsfähige, zugängliche Webanwendungen",

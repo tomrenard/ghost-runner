@@ -1,11 +1,7 @@
-import { Hero } from "@/components/hero";
-
-export default async function Home() {
+export default function Index() {
   return (
-    <>
-      <main>
-        <Hero />
-      </main>
-    </>
+    <div>
+      <h1>Home</h1>
+    </div>
   );
 }

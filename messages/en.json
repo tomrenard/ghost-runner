@@ -18,7 +18,15 @@
     "noAccount": "Don't have an account?",
     "hasAccount": "Already have an account?",
     "emailPlaceholder": "you@example.com",
-    "passwordPlaceholder": "Your password"
+    "passwordPlaceholder": "Your password",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signingIn": "Signing in...",
+    "signingUp": "Signing up...",
+    "forgotPassword": "Forgot Password?",
+    "submit": "Submit",
+    "checkEmail": "Check your email",
+    "checkEmailMessage": "We've sent a magic link to your email. Click it to sign in."
   },
   "footer": {
     "description": "Build fully functional accessible web applications faster than ever",

@@ -1,13 +1,12 @@
 import "../globals.css";
-import "@mantine/core/styles.css";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { routing } from "@/src/i18n/routing";
-import { ColorSchemeScript, MantineProvider, createTheme } from "@mantine/core";
 import { NextIntlClientProvider } from "next-intl";
 import { hasLocale } from "next-intl";
 import type { Messages } from "next-intl";
 import { notFound } from "next/navigation";
+import { Theme } from "@radix-ui/themes";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -18,25 +17,6 @@ export const metadata = {
   title: "Next.js and Supabase Starter Kit",
   description: "The fastest way to build apps with Next.js and Supabase",
 };
-
-const theme = createTheme({
-  colors: {
-    black: [
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-      "#000000",
-    ],
-  },
-  fontFamily: "Open Sans, sans-serif",
-  primaryColor: "black",
-});
 
 export default async function LocaleLayout({
   children,
@@ -59,17 +39,21 @@ export default async function LocaleLayout({
 
   return (
     <html lang={params.locale} suppressHydrationWarning>
-      <head>
-        <ColorSchemeScript defaultColorScheme="auto" />
-      </head>
+      <head />
       <body>
-        <NextIntlClientProvider locale={params.locale} messages={messages}>
-          <MantineProvider theme={theme}>
+        <Theme
+          accentColor="blue"
+          grayColor="gray"
+          panelBackground="solid"
+          scaling="100%"
+          radius="medium"
+        >
+          <NextIntlClientProvider locale={params.locale} messages={messages}>
             <Header />
             <main>{children}</main>
             <Footer />
-          </MantineProvider>
-        </NextIntlClientProvider>
+          </NextIntlClientProvider>
+        </Theme>
       </body>
     </html>
   );

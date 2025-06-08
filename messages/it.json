@@ -18,7 +18,15 @@
     "noAccount": "Non hai un account?",
     "hasAccount": "Hai già un account?",
     "emailPlaceholder": "tuo@esempio.com",
-    "passwordPlaceholder": "La tua password"
+    "passwordPlaceholder": "La tua password",
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "signingIn": "Accesso in corso...",
+    "signingUp": "Registrazione in corso...",
+    "forgotPassword": "Password dimenticata?",
+    "submit": "Invia",
+    "checkEmail": "Controlla la tua email",
+    "checkEmailMessage": "Abbiamo inviato un link magico alla tua email. Cliccalo per accedere."
   },
   "footer": {
     "description": "Costruisci applicazioni web accessibili e completamente funzionali più velocemente che mai",

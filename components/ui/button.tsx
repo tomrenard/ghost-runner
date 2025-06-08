@@ -1,19 +1,12 @@
-import { Button as MantineButton, type ButtonProps } from "@mantine/core";
-import type { ButtonHTMLAttributes } from "react";
+import { Button as RadixButton } from "@radix-ui/themes";
+import type { ComponentProps, ReactNode } from "react";
 
-type ExtendedButtonProps = ButtonProps &
-  ButtonHTMLAttributes<HTMLButtonElement>;
+type ButtonProps = {
+  children: ReactNode;
+} & ComponentProps<typeof RadixButton>;
 
-const Button = ({
-  children,
-  type = "button",
-  ...props
-}: ExtendedButtonProps) => {
-  return (
-    <MantineButton type={type} radius="xl" {...props}>
-      {children}
-    </MantineButton>
-  );
+const Button = ({ children, ...props }: ButtonProps) => {
+  return <RadixButton {...props}>{children}</RadixButton>;
 };
 
 export { Button };

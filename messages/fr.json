@@ -18,7 +18,15 @@
     "noAccount": "Vous n'avez pas de compte ?",
     "hasAccount": "Vous avez déjà un compte ?",
     "emailPlaceholder": "vous@exemple.com",
-    "passwordPlaceholder": "Votre mot de passe"
+    "passwordPlaceholder": "Votre mot de passe",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "signingIn": "Connexion en cours...",
+    "signingUp": "Inscription en cours...",
+    "forgotPassword": "Mot de passe oublié ?",
+    "submit": "Envoyer",
+    "checkEmail": "Vérifiez votre e-mail",
+    "checkEmailMessage": "Nous avons envoyé un lien magique à votre adresse e-mail. Cliquez dessus pour vous connecter."
   },
   "footer": {
     "description": "Construisez des applications web accessibles et entièrement fonctionnelles plus rapidement que jamais",

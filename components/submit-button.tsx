@@ -1,23 +1,22 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import type { ComponentProps } from "react";
 import { useFormStatus } from "react-dom";
+import { type ComponentProps } from "react";
+import { Button } from "./ui/button";
+import { Button as RadixButton } from "@radix-ui/themes";
 
-type Props = ComponentProps<typeof Button> & {
+type Props = ComponentProps<typeof RadixButton> & {
   pendingText?: string;
 };
 
-export function SubmitButton({
-  children,
-  pendingText = "Submitting...",
-  ...props
-}: Props) {
-  const { pending } = useFormStatus();
+export function SubmitButton({ children, pendingText, ...props }: Props) {
+  const { pending, action } = useFormStatus();
+
+  const isPending = pending && action === props.formAction;
 
   return (
-    <Button type="submit" aria-disabled={pending} {...props}>
-      {pending ? pendingText : children}
+    <Button {...props} type="submit" aria-disabled={pending}>
+      {isPending ? pendingText : children}
     </Button>
   );
 }

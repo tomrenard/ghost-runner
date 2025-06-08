@@ -1,28 +1,26 @@
 import styles from "./form-message.module.css";
 
-export type Message =
-  | { success: string }
-  | { error: string }
-  | { message: string };
+export type Message = {
+  type: "error" | "success";
+  content: string;
+};
 
-export function FormMessage({ message }: { message: Message }) {
+export function FormMessage(props: { message?: Message }) {
+  const { message } = props;
+
+  if (!message) {
+    return null;
+  }
+
+  const { type, content } = message;
+
   return (
-    <div className={styles.container}>
-      {"success" in message && (
-        <div className={`${styles.message} ${styles.success}`}>
-          {message.success}
-        </div>
-      )}
-      {"error" in message && (
-        <div className={`${styles.message} ${styles.error}`}>
-          {message.error}
-        </div>
-      )}
-      {"message" in message && (
-        <div className={`${styles.message} ${styles.info}`}>
-          {message.message}
-        </div>
-      )}
+    <div
+      className={`${styles.container} ${
+        type === "error" ? styles.error : styles.success
+      }`}
+    >
+      <p className={styles.text}>{content}</p>
     </div>
   );
 }

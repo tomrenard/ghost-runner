@@ -1,14 +1,10 @@
 .footer {
   bottom: 0;
   width: 100%;
-  padding-top: calc(var(--mantine-spacing-xl) * 2);
-  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
-  background-color: light-dark(
-    var(--mantine-color-gray-0),
-    var(--mantine-color-dark-6)
-  );
-  border-top: 1px solid
-    light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
 }
 
 .logo {
@@ -25,7 +21,7 @@
   margin-top: 5px;
 
   @media (max-width: 600px) {
-    margin-top: var(--mantine-spacing-xs);
+    margin-top: 0.5rem;
     text-align: center;
   }
 }
@@ -55,8 +51,8 @@
 
 .link {
   display: block;
-  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
-  font-size: var(--mantine-font-size-sm);
+  color: #495057;
+  font-size: 0.875rem;
   padding-top: 3px;
   padding-bottom: 3px;
 
@@ -66,20 +62,19 @@
 }
 
 .title {
-  font-size: var(--mantine-font-size-lg);
+  font-size: 1.125rem;
   font-weight: 500;
-  font-family: Outfit, var(--mantine-font-family);
-  margin-bottom: calc(var(--mantine-spacing-xs) / 2);
-  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Outfit, sans-serif;
+  margin-bottom: 0.25rem;
+  color: #000;
 }
 
 .afterFooter {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--mantine-spacing-xl);
-  border-top: 1px solid
-    light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-4));
+  margin-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
 
   @media (max-width: 600px) {
     flex-direction: column;
@@ -88,6 +83,6 @@
 
 .social {
   @media (max-width: 600px) {
-    margin-top: var(--mantine-spacing-xs);
+    margin-top: 0.5rem;
   }
 }
